@@ -1,0 +1,17 @@
+PODS:
+  - JRSwizzle (1.0)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - JRSwizzle (from `OTForgivingFoundation/JRSwizzle.podspec`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  JRSwizzle:
+    :podspec: OTForgivingFoundation/JRSwizzle.podspec
+
+SPEC CHECKSUMS:
+  JRSwizzle: f2e0d85fbd8f2fa99d5386c9d3d5360aa1cd905e
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498631001B462C5D004C932E /* libOTForgivingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 498630F41B462C5D004C932E /* libOTForgivingFoundation.a */; };
+		498631121B462D0B004C932E /* NSArray+OTForgivingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4986310F1B462D0B004C932E /* NSArray+OTForgivingFoundation.m */; };
+		498631131B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 498631111B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m */; };
+		498631171B462D25004C932E /* JRSwizzle.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 498631161B462D25004C932E /* JRSwizzle.podspec */; };
+		498631191B462DAB004C932E /* OTForgivingFoundationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 498631181B462DAB004C932E /* OTForgivingFoundationSpec.m */; };
+		5801D8EFE058FC8662B68919 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0382266E8D904EF129A4F3C2 /* libPods.a */; };
+		ECA8A719B00E521B2D8A62E9 /* libPods-OTForgivingFoundationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBAF0D10B19BFA0C997B7C9 /* libPods-OTForgivingFoundationTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498631011B462C5D004C932E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498630EC1B462C5D004C932E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498630F31B462C5D004C932E;
+			remoteInfo = OTForgivingFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		498630F21B462C5D004C932E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0382266E8D904EF129A4F3C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		498630F41B462C5D004C932E /* libOTForgivingFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOTForgivingFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		498630FF1B462C5D004C932E /* OTForgivingFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTForgivingFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498631051B462C5D004C932E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4986310E1B462D0B004C932E /* NSArray+OTForgivingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+OTForgivingFoundation.h"; sourceTree = "<group>"; };
+		4986310F1B462D0B004C932E /* NSArray+OTForgivingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+OTForgivingFoundation.m"; sourceTree = "<group>"; };
+		498631101B462D0B004C932E /* NSDictionary+OTForgivingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OTForgivingFoundation.h"; sourceTree = "<group>"; };
+		498631111B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OTForgivingFoundation.m"; sourceTree = "<group>"; };
+		498631141B462D10004C932E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		498631161B462D25004C932E /* JRSwizzle.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JRSwizzle.podspec; sourceTree = "<group>"; };
+		498631181B462DAB004C932E /* OTForgivingFoundationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTForgivingFoundationSpec.m; sourceTree = "<group>"; };
+		4986311C1B462E07004C932E /* OTForgivingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTForgivingFoundation.h; sourceTree = "<group>"; };
+		4986311F1B462FD6004C932E /* OTForgivingFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OTForgivingFoundation.podspec; sourceTree = "<group>"; };
+		498631201B4632BB004C932E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D785BD8CF343ED81B5316F3 /* Pods-OTForgivingFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTForgivingFoundationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTForgivingFoundationTests/Pods-OTForgivingFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
+		6CBAF0D10B19BFA0C997B7C9 /* libPods-OTForgivingFoundationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTForgivingFoundationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DEA1C427868E8D6678DBC8 /* Pods-OTForgivingFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTForgivingFoundationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTForgivingFoundationTests/Pods-OTForgivingFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2116B40A3041CDD3D22F9FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF31C229C825DF2F11FEED1F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498630F11B462C5D004C932E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5801D8EFE058FC8662B68919 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498630FC1B462C5D004C932E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498631001B462C5D004C932E /* libOTForgivingFoundation.a in Frameworks */,
+				ECA8A719B00E521B2D8A62E9 /* libPods-OTForgivingFoundationTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08704AF331DA3633C624CB00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0382266E8D904EF129A4F3C2 /* libPods.a */,
+				6CBAF0D10B19BFA0C997B7C9 /* libPods-OTForgivingFoundationTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27CAC4654F26E405D9FF8138 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2116B40A3041CDD3D22F9FB /* Pods.debug.xcconfig */,
+				FF31C229C825DF2F11FEED1F /* Pods.release.xcconfig */,
+				96DEA1C427868E8D6678DBC8 /* Pods-OTForgivingFoundationTests.debug.xcconfig */,
+				4D785BD8CF343ED81B5316F3 /* Pods-OTForgivingFoundationTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		498630EB1B462C5D004C932E = {
+			isa = PBXGroup;
+			children = (
+				498630F61B462C5D004C932E /* OTForgivingFoundation */,
+				498631031B462C5D004C932E /* OTForgivingFoundationTests */,
+				498630F51B462C5D004C932E /* Products */,
+				27CAC4654F26E405D9FF8138 /* Pods */,
+				08704AF331DA3633C624CB00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		498630F51B462C5D004C932E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498630F41B462C5D004C932E /* libOTForgivingFoundation.a */,
+				498630FF1B462C5D004C932E /* OTForgivingFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498630F61B462C5D004C932E /* OTForgivingFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				498631141B462D10004C932E /* README.md */,
+				498631201B4632BB004C932E /* LICENSE */,
+				4986311F1B462FD6004C932E /* OTForgivingFoundation.podspec */,
+				4986311C1B462E07004C932E /* OTForgivingFoundation.h */,
+				4986310E1B462D0B004C932E /* NSArray+OTForgivingFoundation.h */,
+				4986310F1B462D0B004C932E /* NSArray+OTForgivingFoundation.m */,
+				498631101B462D0B004C932E /* NSDictionary+OTForgivingFoundation.h */,
+				498631111B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m */,
+				498631161B462D25004C932E /* JRSwizzle.podspec */,
+			);
+			path = OTForgivingFoundation;
+			sourceTree = "<group>";
+		};
+		498631031B462C5D004C932E /* OTForgivingFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				498631181B462DAB004C932E /* OTForgivingFoundationSpec.m */,
+				498631041B462C5D004C932E /* Supporting Files */,
+			);
+			path = OTForgivingFoundationTests;
+			sourceTree = "<group>";
+		};
+		498631041B462C5D004C932E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498631051B462C5D004C932E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498630F31B462C5D004C932E /* OTForgivingFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498631081B462C5D004C932E /* Build configuration list for PBXNativeTarget "OTForgivingFoundation" */;
+			buildPhases = (
+				6CC4523241CB743E112D3552 /* Check Pods Manifest.lock */,
+				498630F01B462C5D004C932E /* Sources */,
+				498630F11B462C5D004C932E /* Frameworks */,
+				498630F21B462C5D004C932E /* CopyFiles */,
+				41AD11EE811AC27CC0F38ACF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTForgivingFoundation;
+			productName = OTForgivingFoundation;
+			productReference = 498630F41B462C5D004C932E /* libOTForgivingFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		498630FE1B462C5D004C932E /* OTForgivingFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4986310B1B462C5D004C932E /* Build configuration list for PBXNativeTarget "OTForgivingFoundationTests" */;
+			buildPhases = (
+				3FD73AF412EE52462B6E47B1 /* Check Pods Manifest.lock */,
+				498630FB1B462C5D004C932E /* Sources */,
+				498630FC1B462C5D004C932E /* Frameworks */,
+				498630FD1B462C5D004C932E /* Resources */,
+				F4B58F7533CB8FEE80C4575B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498631021B462C5D004C932E /* PBXTargetDependency */,
+			);
+			name = OTForgivingFoundationTests;
+			productName = OTForgivingFoundationTests;
+			productReference = 498630FF1B462C5D004C932E /* OTForgivingFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498630EC1B462C5D004C932E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Oleksii Taran";
+				TargetAttributes = {
+					498630F31B462C5D004C932E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					498630FE1B462C5D004C932E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 498630EF1B462C5D004C932E /* Build configuration list for PBXProject "OTForgivingFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 498630EB1B462C5D004C932E;
+			productRefGroup = 498630F51B462C5D004C932E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498630F31B462C5D004C932E /* OTForgivingFoundation */,
+				498630FE1B462C5D004C932E /* OTForgivingFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498630FD1B462C5D004C932E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498631171B462D25004C932E /* JRSwizzle.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FD73AF412EE52462B6E47B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41AD11EE811AC27CC0F38ACF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CC4523241CB743E112D3552 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B58F7533CB8FEE80C4575B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTForgivingFoundationTests/Pods-OTForgivingFoundationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498630F01B462C5D004C932E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498631121B462D0B004C932E /* NSArray+OTForgivingFoundation.m in Sources */,
+				498631131B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498630FB1B462C5D004C932E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498631191B462DAB004C932E /* OTForgivingFoundationSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498631021B462C5D004C932E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498630F31B462C5D004C932E /* OTForgivingFoundation */;
+			targetProxy = 498631011B462C5D004C932E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		498631061B462C5D004C932E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		498631071B462C5D004C932E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498631091B462C5D004C932E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2116B40A3041CDD3D22F9FB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4986310A1B462C5D004C932E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF31C229C825DF2F11FEED1F /* Pods.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4986310C1B462C5D004C932E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DEA1C427868E8D6678DBC8 /* Pods-OTForgivingFoundationTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JRSwizzle\"",
+					"\"${PODS_ROOT}/Headers/Public/Kiwi\"",
+					"\"${SRCROOT}\"",
+				);
+				INFOPLIST_FILE = OTForgivingFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4986310D1B462C5D004C932E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D785BD8CF343ED81B5316F3 /* Pods-OTForgivingFoundationTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JRSwizzle\"",
+					"\"${PODS_ROOT}/Headers/Public/Kiwi\"",
+					"\"${SRCROOT}\"",
+				);
+				INFOPLIST_FILE = OTForgivingFoundationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498630EF1B462C5D004C932E /* Build configuration list for PBXProject "OTForgivingFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498631061B462C5D004C932E /* Debug */,
+				498631071B462C5D004C932E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498631081B462C5D004C932E /* Build configuration list for PBXNativeTarget "OTForgivingFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498631091B462C5D004C932E /* Debug */,
+				4986310A1B462C5D004C932E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4986310B1B462C5D004C932E /* Build configuration list for PBXNativeTarget "OTForgivingFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4986310C1B462C5D004C932E /* Debug */,
+				4986310D1B462C5D004C932E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498630EC1B462C5D004C932E /* Project object */;
+}
