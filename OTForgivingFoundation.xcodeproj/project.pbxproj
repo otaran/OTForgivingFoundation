@@ -47,12 +47,12 @@
 		4986310F1B462D0B004C932E /* NSArray+OTForgivingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+OTForgivingFoundation.m"; sourceTree = "<group>"; };
 		498631101B462D0B004C932E /* NSDictionary+OTForgivingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+OTForgivingFoundation.h"; sourceTree = "<group>"; };
 		498631111B462D0B004C932E /* NSDictionary+OTForgivingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+OTForgivingFoundation.m"; sourceTree = "<group>"; };
-		498631141B462D10004C932E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		498631161B462D25004C932E /* JRSwizzle.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JRSwizzle.podspec; sourceTree = "<group>"; };
 		498631181B462DAB004C932E /* OTForgivingFoundationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTForgivingFoundationSpec.m; sourceTree = "<group>"; };
 		4986311C1B462E07004C932E /* OTForgivingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTForgivingFoundation.h; sourceTree = "<group>"; };
-		4986311F1B462FD6004C932E /* OTForgivingFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OTForgivingFoundation.podspec; sourceTree = "<group>"; };
-		498631201B4632BB004C932E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		498631231B48A658004C932E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		498631241B48A660004C932E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		498631251B48A667004C932E /* OTForgivingFoundation.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OTForgivingFoundation.podspec; sourceTree = "<group>"; };
 		4D785BD8CF343ED81B5316F3 /* Pods-OTForgivingFoundationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTForgivingFoundationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTForgivingFoundationTests/Pods-OTForgivingFoundationTests.release.xcconfig"; sourceTree = "<group>"; };
 		6CBAF0D10B19BFA0C997B7C9 /* libPods-OTForgivingFoundationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTForgivingFoundationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DEA1C427868E8D6678DBC8 /* Pods-OTForgivingFoundationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTForgivingFoundationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTForgivingFoundationTests/Pods-OTForgivingFoundationTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +104,9 @@
 		498630EB1B462C5D004C932E = {
 			isa = PBXGroup;
 			children = (
+				498631241B48A660004C932E /* README.md */,
+				498631251B48A667004C932E /* OTForgivingFoundation.podspec */,
+				498631231B48A658004C932E /* LICENSE */,
 				498630F61B462C5D004C932E /* OTForgivingFoundation */,
 				498631031B462C5D004C932E /* OTForgivingFoundationTests */,
 				498630F51B462C5D004C932E /* Products */,
@@ -124,9 +127,6 @@
 		498630F61B462C5D004C932E /* OTForgivingFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				498631141B462D10004C932E /* README.md */,
-				498631201B4632BB004C932E /* LICENSE */,
-				4986311F1B462FD6004C932E /* OTForgivingFoundation.podspec */,
 				4986311C1B462E07004C932E /* OTForgivingFoundation.h */,
 				4986310E1B462D0B004C932E /* NSArray+OTForgivingFoundation.h */,
 				4986310F1B462D0B004C932E /* NSArray+OTForgivingFoundation.m */,
