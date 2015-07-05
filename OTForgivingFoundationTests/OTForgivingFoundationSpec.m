@@ -71,6 +71,12 @@ describe(@"OTForgivingFoundation", ^{
                     (id)nil: @1,
                 };
             }) should] raise];
+            
+            [[theBlock(^{
+                id __unused _ = @{
+                    (id)nil: (id)nil,
+                };
+            }) should] raise];
         });
     });
 });

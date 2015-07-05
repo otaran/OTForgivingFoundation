@@ -43,7 +43,7 @@
         
         ++idx;
         
-        if (obj) {
+        if ((key == nil) || obj) {
             nonNilKeys[nonNilCount] = key;
             nonNilObjects[nonNilCount] = obj;
             ++nonNilCount;
