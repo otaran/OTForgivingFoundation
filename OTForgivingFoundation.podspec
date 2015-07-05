@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'OTForgivingFoundation'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.license  = 'MIT'
   s.summary  = 'Tired of receiving crash reports because Foundation collection classes don\'t accept nil values? Suffer no more!'
   s.homepage = 'https://github.com/otaran/OTForgivingFoundation'
